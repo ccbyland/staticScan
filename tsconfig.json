@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 目标 JavaScript 版本
+    "module": "commonjs", // 使用 CommonJS 模块
+    "strict": true, // 启用所有严格类型检查选项
+    "esModuleInterop": true, // 启用对 ES 模块默认导入的兼容性
+    "skipLibCheck": true, // 跳过声明文件的类型检查
+    "outDir": "./dist", // 输出目录
+    "rootDir": "./src", // 输入文件的根目录
+    "typeRoots": ["node_modules/@types"], // 确保包含类型定义的目录
+    "types": ["node"] // 包含 Node.js 类型
+  },
+  "include": [
+    "src/**/*" // 包含所有 src 目录下的 TypeScript 文件
+  ],
+  "exclude": [
+    "node_modules", // 排除 node_modules 目录
+    "**/*.spec.ts" // 排除测试文件
+  ]
+}

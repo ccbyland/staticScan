@@ -3,7 +3,7 @@ const codeNorm = require("../modules/codeNorm/index");
 
 export async function initCodeNormScan() {
   const baseDir = path.resolve(__dirname, "D:/lzjx/crm-pc-client-web/src");
-  const scanData = await codeNorm.scan(baseDir, ["ts", "tsx"], ["no-console"]);
+  const scanData = await codeNorm.scan(baseDir, ["ts", "tsx"]);
 
   scanData.forEach((obj: IAnalyzeData) => {
     const { filePath } = obj;

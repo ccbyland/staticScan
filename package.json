@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/generator": "^7.24.6",
+    "@babel/traverse": "^7.24.6",
+    "@babel/types": "^7.24.6",
     "@types/node": "^20.12.12",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "@typescript-eslint/parser": "^7.9.0",

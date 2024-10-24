@@ -17,12 +17,12 @@ function initCodeDepend() {
         const baseDir = path.resolve(__dirname, "D:/lzjx/crm-pc-client-web");
         const scanData1 = yield codeDepend.scan(path.resolve(baseDir, "./src"), "--circular", baseDir);
         scanData1.forEach((obj) => {
-            console.error(obj, obj.length);
+            // console.error(obj, obj.length);
         });
-        console.error("\n");
+        // console.error("\n");
         const scanData2 = yield codeDepend.scan(path.resolve(baseDir, "./src"), "--orphans", baseDir);
         scanData2.forEach((obj) => {
-            console.error(obj);
+            // console.error(obj);
         });
     });
 }

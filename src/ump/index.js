@@ -13,5 +13,5 @@ async function main() {
 
 // 立即执行主函数
 main().catch(error => {
-  console.error('执行过程中发生错误:', error);
+  // console.error('执行过程中发生错误:', error);
 });

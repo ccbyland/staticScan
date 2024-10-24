@@ -10,8 +10,8 @@ export async function initCodeRepetitionScan() {
   });
 
   scanData.forEach((obj: ICodeRepetitionData) => {
-    console.error("\n");
-    console.error(obj.fileA.filePath, obj.fileA.codeRange);
-    console.error(obj.fileB.filePath, obj.fileB.codeRange);
+    // console.error("\n");
+    // console.error(obj.fileA.filePath, obj.fileA.codeRange);
+    // console.error(obj.fileB.filePath, obj.fileB.codeRange);
   });
 }

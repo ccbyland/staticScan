@@ -33,7 +33,7 @@
 
 //         if (comments.length > 0) {
 //           const reportComment = comments[0];
-//           console.error(`【${filePath}】`, `【${fnName}】`, reportComment);
+//           // console.error(`【${filePath}】`, `【${fnName}】`, reportComment);
 
 //           if (reportComment) {
 //             const { body } = node.body;
@@ -90,7 +90,7 @@
 //         this.parseAST(this.ast);
 //         await this.handleFunction();
 //       } catch (error) {
-//         // console.error(`解析文件出错：${filePath}`, error.message);
+//         // // console.error(`解析文件出错：${filePath}`, error.message);
 //       }
 //     }
 //   }

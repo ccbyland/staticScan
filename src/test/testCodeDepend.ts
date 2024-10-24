@@ -9,10 +9,10 @@ export async function initCodeDepend() {
     baseDir
   );
   scanData1.forEach((obj: string | string[]) => {
-    console.error(obj, obj.length);
+    // console.error(obj, obj.length);
   });
 
-  console.error("\n");
+  // console.error("\n");
 
   const scanData2: string[][] = await codeDepend.scan(
     path.resolve(baseDir, "./src"),
@@ -20,6 +20,6 @@ export async function initCodeDepend() {
     baseDir
   );
   scanData2.forEach((obj: string | string[]) => {
-    console.error(obj);
+    // console.error(obj);
   });
 }

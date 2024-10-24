@@ -35,7 +35,7 @@ async function scan(filePath: string, rule: IRepetitionRule) {
     const clones = await detectClones(options);
     return analyze(clones);
   } catch (error) {
-    console.error("检测重复代码时发生错误:", error);
+    // console.error("检测重复代码时发生错误:", error);
   }
 }
 

@@ -21,9 +21,9 @@ function initCodeRepetitionScan() {
             maxLines: 1000,
         });
         scanData.forEach((obj) => {
-            console.error("\n");
-            console.error(obj.fileA.filePath, obj.fileA.codeRange);
-            console.error(obj.fileB.filePath, obj.fileB.codeRange);
+            // console.error("\n");
+            // console.error(obj.fileA.filePath, obj.fileA.codeRange);
+            // console.error(obj.fileB.filePath, obj.fileB.codeRange);
         });
     });
 }

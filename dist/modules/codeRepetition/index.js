@@ -44,7 +44,7 @@ function scan(filePath, rule) {
             return analyze(clones);
         }
         catch (error) {
-            console.error("检测重复代码时发生错误:", error);
+            // console.error("检测重复代码时发生错误:", error);
         }
     });
 }

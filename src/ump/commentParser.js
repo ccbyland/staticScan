@@ -25,7 +25,7 @@ class CommentParser {
         parseAST(this.ast, this);
         await commentToFunction(this);
       } catch (error) {
-        console.error(`解析文件出错：${filePath}`, error.message);
+        // console.error(`解析文件出错：${filePath}`, error.message);
       }
     }
   }

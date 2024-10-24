@@ -18,10 +18,10 @@ function initCodeNormScan() {
         const scanData = yield codeNorm.scan(baseDir, ["ts", "tsx"], ["no-console"]);
         scanData.forEach((obj) => {
             const { filePath } = obj;
-            console.error("\n", filePath);
+            // console.error("\n", filePath);
             obj.messages.forEach((messsage) => {
                 const { ruleId, severity, line, column } = messsage;
-                console.error(ruleId, severity, line, column);
+                // console.error(ruleId, severity, line, column);
             });
         });
     });

@@ -3,7 +3,7 @@ const { initCodeRepetitionScan } = require("./test/testCodeRepetition");
 const { initCodeDepend } = require("./test/testCodeDepend");
 const { initCodeComplex } = require("./test/testCodeComplex");
 
-// initCodeNormScan();
+initCodeNormScan();
 // initCodeRepetitionScan();
-initCodeDepend();
+// initCodeDepend();
 // initCodeComplex()
